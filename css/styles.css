@@ -84,6 +84,7 @@ padding-right: 15px;
 .nav-link {
     position: relative;
     color: var(--primary-text-color);
+    transition: color 250ms var(--transition-timing-function);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -92,7 +93,6 @@ padding-right: 15px;
 
 .nav-link.current {
     color: var(--primary-accent-bg-and-text-color);  
-    transition: color 250ms var(--transition-timing-function); 
 }
 .nav-link:hover,
 .nav-link:focus {
